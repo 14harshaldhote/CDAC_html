@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table with Image</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            height: 600px; 
+        }
+
+        th, td {
+            border: 1px solid rgb(170, 159, 159);
+            padding: 8px;
+            text-align: center;
+            color: white; 
+        }
+
+       
+        table {
+            background-image: url("a.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">Average</th>
+            <th rowspan="2">Red Eyes</th>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td>Weight</td>
+        </tr>
+        <tr>
+            <td>Male</td>
+            <td>1.9</td>
+            <td>0.03</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>Female</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </table>
+</body>
+</html>
