@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <title>krta ky calculation aj k din </title>
+    <style>
+        .calculator{
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: rgb(154, 196, 221);
+        }
+        input{
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 20px;
+            background-color: rgb(238,251,231);
+        }
+        .buttons{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap:10px;
+
+
+        }
+        .button {
+            padding: 10px;
+            font-size: 20px;
+            text-align: center;
+            background-color:rgb(235,235,235);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        #c{
+            background-color: rgb(250,139,152);
+        }
+        #a{
+            background-color: rgb(236,255,129);
+        }
+        .back{
+            background-color: antiquewhite;
+            display: fit;
+        }
+
+    </style>
+
+</head>
+<body >
+    
+    <div class="back">
+    <div class="calculator">
+        <input type="text" id="display">
+        <div class="buttons">
+            <div class="button">1</div>
+            <div class="button">2</div>
+            <div class="button">3</div>
+            <div class="button" id="a">+</div>
+            <div class="button">4</div>
+            <div class="button">5</div>
+            <div class="button">6</div>
+            <div class="button" id="a">-</div>
+            <div class="button" >7</div>
+            <div class="button">8</div>
+            <div class="button">9</div>
+            <div class="button" id="a">*</div>
+            <div class="button" id="c">C</div>
+            <div class="button">0</div>
+            <div class="button">=</div>
+            <div class="button" id="a">/</div>
+
+
+
+
+
+        </div>
+    </div>
+    </div>
+
+
+
+</body>
+</html>
